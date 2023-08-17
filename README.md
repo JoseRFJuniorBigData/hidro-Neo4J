@@ -1,5 +1,7 @@
 HIDRO - Oracle / PostGreSQL for Neo4J
 
+<img src="img.png" alt="DATA">
+
 **Projeto de Gestão de Hidrelétricas Brasileiras usando Neo4j**
 
 O setor de energia é de vital importância para qualquer país, e no caso do Brasil, onde a matriz energética é fortemente baseada em fontes renováveis, as usinas hidrelétricas desempenham um papel crucial. Para otimizar a gestão e o entendimento das complexas interconexões entre hidrelétricas, estados, cidades e consumo de energia, um projeto inovador foi desenvolvido utilizando o banco de dados orientado a grafos Neo4j.
