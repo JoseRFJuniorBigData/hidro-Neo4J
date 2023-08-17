@@ -1,0 +1,1985 @@
+// Criar usinas hidrelétricas
+CREATE (n:Usina:Hidreletrica{ 
+    id: 1, 
+    nome: "Usina Hidrelétrica Belo Monte", 
+    rio: "Rio Xingu",
+    bacia: "Bacia do Rio Xingu",
+    sub_bacia: "Sub-bacia do Rio Xingu",
+    estado: "Pará",
+    potencia_instalada: "11.233 MW",
+    inicio_de_operacao: 2016,
+    proprietario: "Consórcio Belo Monte",
+    observacao: "Maior usina hidrelétrica totalmente brasileira"
+});
+CREATE (n:Usina:Hidreletrica{ 
+    id: 2, 
+    nome: "Usina Hidrelétrica de Tucuruí", 
+    rio: "Rio Tocantins",
+    bacia: "Bacia do Rio Tocantins",
+    sub_bacia: "Sub-bacia do Rio Tocantins",
+    estado: "Pará",
+    potencia_instalada: "8.370 MW",
+    inicio_de_operacao: 1984,
+    proprietario: "Eletronorte",
+    observacao: "Maior usina hidrelétrica da região Norte"
+});
+
+// Criar usinas hidrelétricas (continuação)
+CREATE (n:Usina:Hidreletrica{ 
+    id: 3, 
+    nome: "Usina Hidrelétrica de Itaipu", 
+    rio: "Rio Paraná",
+    bacia: "Bacia do Rio Paraná",
+    sub_bacia: "Sub-bacia do Rio Paraná",
+    estado: "Paraná",
+    potencia_instalada: "14.000 MW",
+    inicio_de_operacao: 1984,
+    proprietario: "Brasil e Paraguai",
+    observacao: "Maior usina hidrelétrica do mundo em geração de energia"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 4, 
+    nome: "Usina Hidrelétrica de Ilha Solteira", 
+    rio: "Rio Paraná",
+    bacia: "Bacia do Rio Paraná",
+    sub_bacia: "Sub-bacia do Rio Paraná",
+    estado: "São Paulo",
+    potencia_instalada: "3.444 MW",
+    inicio_de_operacao: 1978,
+    proprietario: "CESP",
+    observacao: "Maior usina hidrelétrica do estado de São Paulo"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 5, 
+    nome: "Usina Hidrelétrica de Jirau", 
+    rio: "Rio Madeira",
+    bacia: "Bacia do Rio Madeira",
+    sub_bacia: "Sub-bacia do Rio Madeira",
+    estado: "Rondônia",
+    potencia_instalada: "3.750 MW",
+    inicio_de_operacao: 2013,
+    proprietario: "Energia Sustentável do Brasil",
+    observacao: "Uma das maiores usinas hidrelétricas do Brasil"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 6, 
+    nome: "Usina Hidrelétrica de Balbina", 
+    rio: "Rio Uatumã",
+    bacia: "Bacia do Rio Uatumã",
+    sub_bacia: "Sub-bacia do Rio Uatumã",
+    estado: "Amazonas",
+    potencia_instalada: "250 MW",
+    inicio_de_operacao: 1989,
+    proprietario: "Eletrobras Amazonas Energia",
+    observacao: "Impactos ambientais significativos devido à formação do lago"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 7, 
+    nome: "Usina Hidrelétrica de Sobradinho", 
+    rio: "Rio São Francisco",
+    bacia: "Bacia do Rio São Francisco",
+    sub_bacia: "Sub-bacia do Rio São Francisco",
+    estado: "Bahia",
+    potencia_instalada: "1.050 MW",
+    inicio_de_operacao: 1979,
+    proprietario: "CHESF",
+    observacao: "Primeira grande usina hidrelétrica do Rio São Francisco"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 8, 
+    nome: "Usina Hidrelétrica de Santo Antônio", 
+    rio: "Rio Madeira",
+    bacia: "Bacia do Rio Madeira",
+    sub_bacia: "Sub-bacia do Rio Madeira",
+    estado: "Rondônia",
+    potencia_instalada: "3.568 MW",
+    inicio_de_operacao: 2012,
+    proprietario: "Energia Sustentável do Brasil",
+    observacao: "Localizada próxima à Usina Hidrelétrica de Jirau"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 9, 
+    nome: "Usina Hidrelétrica de Xingó", 
+    rio: "Rio São Francisco",
+    bacia: "Bacia do Rio São Francisco",
+    sub_bacia: "Sub-bacia do Rio São Francisco",
+    estado: "Alagoas e Sergipe",
+    potencia_instalada: "3.162 MW",
+    inicio_de_operacao: 1994,
+    proprietario: "CHESF",
+    observacao: "Usina situada na divisa entre os estados de Alagoas e Sergipe"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 10, 
+    nome: "Usina Hidrelétrica de Furnas", 
+    rio: "Rio Grande",
+    bacia: "Bacia do Rio Grande",
+    sub_bacia: "Sub-bacia do Rio Grande",
+    estado: "Minas Gerais e São Paulo",
+    potencia_instalada: "1.216 MW",
+    inicio_de_operacao: 1963,
+    proprietario: "Furnas Centrais Elétricas",
+    observacao: "Uma das primeiras usinas a compor o sistema de geração do Brasil"
+});
+
+// Criar usinas hidrelétricas (continuação)
+CREATE (n:Usina:Hidreletrica{ 
+    id: 11, 
+    nome: "Usina Hidrelétrica de Tucuruí", 
+    rio: "Rio Tocantins",
+    bacia: "Bacia do Rio Tocantins",
+    sub_bacia: "Sub-bacia do Rio Tocantins",
+    estado: "Pará",
+    potencia_instalada: "8.370 MW",
+    inicio_de_operacao: 1984,
+    proprietario: "Eletronorte",
+    observacao: "Primeira usina a ser construída no Rio Tocantins"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 12, 
+    nome: "Usina Hidrelétrica de Belo Monte", 
+    rio: "Rio Xingu",
+    bacia: "Bacia do Rio Xingu",
+    sub_bacia: "Sub-bacia do Rio Xingu",
+    estado: "Pará",
+    potencia_instalada: "11.233 MW",
+    inicio_de_operacao: 2016,
+    proprietario: "Norte Energia",
+    observacao: "Uma das maiores usinas hidrelétricas do Brasil"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 13, 
+    nome: "Usina Hidrelétrica de Samuel", 
+    rio: "Rio Tocantins",
+    bacia: "Bacia do Rio Tocantins",
+    sub_bacia: "Sub-bacia do Rio Tocantins",
+    estado: "Maranhão e Tocantins",
+    potencia_instalada: "1.275 MW",
+    inicio_de_operacao: 1987,
+    proprietario: "Eletronorte",
+    observacao: "Usina localizada na divisa entre Maranhão e Tocantins"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 14, 
+    nome: "Usina Hidrelétrica de Lajeado", 
+    rio: "Rio Tocantins",
+    bacia: "Bacia do Rio Tocantins",
+    sub_bacia: "Sub-bacia do Rio Tocantins",
+    estado: "Tocantins",
+    potencia_instalada: "902 MW",
+    inicio_de_operacao: 2001,
+    proprietario: "Energisa",
+    observacao: "Localizada próximo à cidade de Palmas"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 15, 
+    nome: "Usina Hidrelétrica de Cana Brava", 
+    rio: "Rio Tocantins",
+    bacia: "Bacia do Rio Tocantins",
+    sub_bacia: "Sub-bacia do Rio Tocantins",
+    estado: "Tocantins",
+    potencia_instalada: "450 MW",
+    inicio_de_operacao: 2010,
+    proprietario: "Energisa",
+    observacao: "Contribui para o abastecimento de energia da região"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 16, 
+    nome: "Usina Hidrelétrica de Curuá-Una", 
+    rio: "Rio Curuá-Una",
+    bacia: "Bacia do Rio Amazonas",
+    sub_bacia: "Sub-bacia do Rio Curuá-Una",
+    estado: "Pará",
+    potencia_instalada: "30 MW",
+    inicio_de_operacao: 2010,
+    proprietario: "Tractebel Energia",
+    observacao: "Usina de pequeno porte na bacia do Rio Amazonas"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 17, 
+    nome: "Usina Hidrelétrica de Estreito", 
+    rio: "Rio Tocantins",
+    bacia: "Bacia do Rio Tocantins",
+    sub_bacia: "Sub-bacia do Rio Tocantins",
+    estado: "Tocantins e Maranhão",
+    potencia_instalada: "1.087 MW",
+    inicio_de_operacao: 2012,
+    proprietario: "Engie Brasil Energia",
+    observacao: "Localizada entre Tocantins e Maranhão"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 18, 
+    nome: "Usina Hidrelétrica de Corumbá IV", 
+    rio: "Rio Corumbá",
+    bacia: "Bacia do Rio Paraná",
+    sub_bacia: "Sub-bacia do Rio Corumbá",
+    estado: "Goiás e Distrito Federal",
+    potencia_instalada: "150 MW",
+    inicio_de_operacao: 2022,
+    proprietario: "Neoenergia",
+    observacao: "Usina no Rio Corumbá, afluente do Rio Paraná"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 19, 
+    nome: "Usina Hidrelétrica de Irapé", 
+    rio: "Rio Jequitinhonha",
+    bacia: "Bacia do Rio Jequitinhonha",
+    sub_bacia: "Sub-bacia do Rio Jequitinhonha",
+    estado: "Minas Gerais",
+    potencia_instalada: "360 MW",
+    inicio_de_operacao: 2006,
+    proprietario: "Cemig",
+    observacao: "Usina no Rio Jequitinhonha, importante rio de Minas Gerais"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 20, 
+    nome: "Usina Hidrelétrica de São Manoel", 
+    rio: "Rio Teles Pires",
+    bacia: "Bacia do Rio Tapajós",
+    sub_bacia: "Sub-bacia do Rio Teles Pires",
+    estado: "Mato Grosso e Pará",
+    potencia_instalada: "700 MW",
+    inicio_de_operacao: 2018,
+    proprietario: "Consórcio UHE São Manoel",
+    observacao: "Usina compartilhada entre Mato Grosso e Pará"
+});
+
+// Criar usinas hidrelétricas (continuação)
+CREATE (n:Usina:Hidreletrica{ 
+    id: 21, 
+    nome: "Usina Hidrelétrica de Jirau", 
+    rio: "Rio Madeira",
+    bacia: "Bacia do Rio Madeira",
+    sub_bacia: "Sub-bacia do Rio Madeira",
+    estado: "Rondônia",
+    potencia_instalada: "3.750 MW",
+    inicio_de_operacao: 2013,
+    proprietario: "Engie Brasil Energia",
+    observacao: "Uma das maiores usinas do Brasil em capacidade instalada"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 22, 
+    nome: "Usina Hidrelétrica de Santo Antônio", 
+    rio: "Rio Madeira",
+    bacia: "Bacia do Rio Madeira",
+    sub_bacia: "Sub-bacia do Rio Madeira",
+    estado: "Rondônia",
+    potencia_instalada: "3.568 MW",
+    inicio_de_operacao: 2012,
+    proprietario: "Consórcio Santo Antônio Energia",
+    observacao: "Usina construída no Rio Madeira"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 23, 
+    nome: "Usina Hidrelétrica de Teles Pires", 
+    rio: "Rio Teles Pires",
+    bacia: "Bacia do Rio Tapajós",
+    sub_bacia: "Sub-bacia do Rio Teles Pires",
+    estado: "Mato Grosso e Pará",
+    potencia_instalada: "1.820 MW",
+    inicio_de_operacao: 2015,
+    proprietario: "Consórcio Teles Pires Energia",
+    observacao: "Usina aproveitando o potencial do Rio Teles Pires"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 24, 
+    nome: "Usina Hidrelétrica de Marabá", 
+    rio: "Rio Tocantins",
+    bacia: "Bacia do Rio Tocantins",
+    sub_bacia: "Sub-bacia do Rio Tocantins",
+    estado: "Pará",
+    potencia_instalada: "2.160 MW",
+    inicio_de_operacao: 2022,
+    proprietario: "China Three Gorges Corporation",
+    observacao: "Usina construída no Rio Tocantins"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 25, 
+    nome: "Usina Hidrelétrica de Colíder", 
+    rio: "Rio Teles Pires",
+    bacia: "Bacia do Rio Tapajós",
+    sub_bacia: "Sub-bacia do Rio Teles Pires",
+    estado: "Mato Grosso",
+    potencia_instalada: "300 MW",
+    inicio_de_operacao: 2017,
+    proprietario: "Neoenergia",
+    observacao: "Usina de médio porte no Rio Teles Pires"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 26, 
+    nome: "Usina Hidrelétrica de São Luiz do Tapajós", 
+    rio: "Rio Tapajós",
+    bacia: "Bacia do Rio Tapajós",
+    sub_bacia: "Sub-bacia do Rio Tapajós",
+    estado: "Pará",
+    potencia_instalada: "8.040 MW",
+    inicio_de_operacao: null,
+    proprietario: "Não atribuído",
+    observacao: "Projeto de grande impacto no Rio Tapajós"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 27, 
+    nome: "Usina Hidrelétrica de Tabajara", 
+    rio: "Rio Parnaíba",
+    bacia: "Bacia do Rio Parnaíba",
+    sub_bacia: "Sub-bacia do Rio Parnaíba",
+    estado: "Maranhão",
+    potencia_instalada: "22 MW",
+    inicio_de_operacao: 2021,
+    proprietario: "Engie Brasil Energia",
+    observacao: "Usina aproveitando o potencial do Rio Parnaíba"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 28, 
+    nome: "Usina Hidrelétrica de Belo Jardim", 
+    rio: "Rio Ipanema",
+    bacia: "Bacia do Rio São Francisco",
+    sub_bacia: "Sub-bacia do Rio Ipanema",
+    estado: "Pernambuco",
+    potencia_instalada: "5 MW",
+    inicio_de_operacao: 2018,
+    proprietario: "Neoenergia",
+    observacao: "Usina de pequeno porte no Rio Ipanema"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 29, 
+    nome: "Usina Hidrelétrica de São Roque", 
+    rio: "Rio Canoas",
+    bacia: "Bacia do Rio Uruguai",
+    sub_bacia: "Sub-bacia do Rio Canoas",
+    estado: "Santa Catarina",
+    potencia_instalada: "136 MW",
+    inicio_de_operacao: 2003,
+    proprietario: "Engie Brasil Energia",
+    observacao: "Usina contribuindo para o abastecimento de energia"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 30, 
+    nome: "Usina Hidrelétrica de Barra Grande", 
+    rio: "Rio Pelotas",
+    bacia: "Bacia do Rio Uruguai",
+    sub_bacia: "Sub-bacia do Rio Pelotas",
+    estado: "Santa Catarina e Rio Grande do Sul",
+    potencia_instalada: "886 MW",
+    inicio_de_operacao: 2005,
+    proprietario: "Enercan",
+    observacao: "Usina compartilhada entre Santa Catarina e Rio Grande do Sul"
+});
+
+// Criar usinas hidrelétricas (continuação)
+CREATE (n:Usina:Hidreletrica{ 
+    id: 31, 
+    nome: "Usina Hidrelétrica de Xingó", 
+    rio: "Rio São Francisco",
+    bacia: "Bacia do Rio São Francisco",
+    sub_bacia: "Sub-bacia do Rio São Francisco",
+    estado: "Alagoas e Sergipe",
+    potencia_instalada: "3.162 MW",
+    inicio_de_operacao: 1994,
+    proprietario: "CHESF",
+    observacao: "Usina importante para a geração de energia no Nordeste"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 32, 
+    nome: "Usina Hidrelétrica de Itumbiara", 
+    rio: "Rio Paranaíba",
+    bacia: "Bacia do Rio Paraná",
+    sub_bacia: "Sub-bacia do Rio Paranaíba",
+    estado: "Goiás e Minas Gerais",
+    potencia_instalada: "2.082 MW",
+    inicio_de_operacao: 1981,
+    proprietario: "Furnas",
+    observacao: "Usina estratégica na região central do Brasil"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 33, 
+    nome: "Usina Hidrelétrica de Três Marias", 
+    rio: "Rio São Francisco",
+    bacia: "Bacia do Rio São Francisco",
+    sub_bacia: "Sub-bacia do Rio São Francisco",
+    estado: "Minas Gerais",
+    potencia_instalada: "396 MW",
+    inicio_de_operacao: 1961,
+    proprietario: "CEMIG",
+    observacao: "Uma das primeiras usinas no Rio São Francisco"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 34, 
+    nome: "Usina Hidrelétrica de Emborcação", 
+    rio: "Rio Paranaíba",
+    bacia: "Bacia do Rio Paraná",
+    sub_bacia: "Sub-bacia do Rio Paranaíba",
+    estado: "Minas Gerais",
+    potencia_instalada: "1.192 MW",
+    inicio_de_operacao: 2012,
+    proprietario: "Cemig e ArcelorMittal",
+    observacao: "Usina com parceria entre a Cemig e o setor industrial"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 35, 
+    nome: "Usina Hidrelétrica de Cana Brava", 
+    rio: "Rio São Francisco",
+    bacia: "Bacia do Rio São Francisco",
+    sub_bacia: "Sub-bacia do Rio São Francisco",
+    estado: "Bahia",
+    potencia_instalada: "120 MW",
+    inicio_de_operacao: 2008,
+    proprietario: "Empresa Baiana de Águas e Saneamento",
+    observacao: "Usina contribuindo para a geração de energia no Nordeste"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 36, 
+    nome: "Usina Hidrelétrica de Aimorés", 
+    rio: "Rio Doce",
+    bacia: "Bacia do Rio Doce",
+    sub_bacia: "Sub-bacia do Rio Doce",
+    estado: "Minas Gerais",
+    potencia_instalada: "84 MW",
+    inicio_de_operacao: 1956,
+    proprietario: "Furnas",
+    observacao: "Usina antiga na bacia do Rio Doce"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 37, 
+    nome: "Usina Hidrelétrica de Volta Grande", 
+    rio: "Rio Xingu",
+    bacia: "Bacia do Rio Amazonas",
+    sub_bacia: "Sub-bacia do Rio Xingu",
+    estado: "Pará",
+    potencia_instalada: "855 MW",
+    inicio_de_operacao: 2019,
+    proprietario: "Norte Energia",
+    observacao: "Usina construída no Rio Xingu"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 38, 
+    nome: "Usina Hidrelétrica de Estreito", 
+    rio: "Rio Tocantins",
+    bacia: "Bacia do Rio Tocantins",
+    sub_bacia: "Sub-bacia do Rio Tocantins",
+    estado: "Tocantins e Maranhão",
+    potencia_instalada: "1.087 MW",
+    inicio_de_operacao: 2012,
+    proprietario: "Engie Brasil Energia",
+    observacao: "Usina compartilhada entre Tocantins e Maranhão"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 39, 
+    nome: "Usina Hidrelétrica de Simplício", 
+    rio: "Rio Paraíba do Sul",
+    bacia: "Bacia do Rio Paraíba do Sul",
+    sub_bacia: "Sub-bacia do Rio Paraíba do Sul",
+    estado: "Minas Gerais e Rio de Janeiro",
+    potencia_instalada: "333 MW",
+    inicio_de_operacao: 2001,
+    proprietario: "Light",
+    observacao: "Usina na bacia do Rio Paraíba do Sul"
+});
+
+CREATE (n:Usina:Hidreletrica{ 
+    id: 40, 
+    nome: "Usina Hidrelétrica de Itapebi", 
+    rio: "Rio Jequitinhonha",
+    bacia: "Bacia do Rio Jequitinhonha",
+    sub_bacia: "Sub-bacia do Rio Jequitinhonha",
+    estado: "Bahia",
+    potencia_instalada: "440 MW",
+    inicio_de_operacao: 2005,
+    proprietario: "Neoenergia",
+    observacao: "Usina aproveitando o potencial do Rio Jequitinhonha"
+});
+
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 41, 
+    nome: "Usina Hidrelétrica de Água Vermelha", 
+    rio: "Rio Paraná",
+    bacia: "Bacia do Rio Paraná",
+    sub_bacia: "Sub-bacia do Rio Paraná",
+    estado: "São Paulo",
+    potencia_instalada: "1,396 MW",
+    inicio_de_operacao: 1974,
+    proprietario: "CTG Brasil",
+    observacao: "Usina localizada na divisa entre São Paulo e Minas Gerais"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 42, 
+    nome: "Usina Hidrelétrica de Chavantes", 
+    rio: "Rio Paranapanema",
+    bacia: "Bacia do Rio Paranapanema",
+    sub_bacia: "Sub-bacia do Rio Paranapanema",
+    estado: "São Paulo",
+    potencia_instalada: "1,220 MW",
+    inicio_de_operacao: 1970,
+    proprietario: "CTG Brasil",
+    observacao: "Usina situada sobre o Rio Paranapanema"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 43, 
+    nome: "Usina Hidrelétrica de Canoas I", 
+    rio: "Rio Canoas",
+    bacia: "Bacia do Rio Canoas",
+    sub_bacia: "Sub-bacia do Rio Canoas",
+    estado: "Santa Catarina",
+    potencia_instalada: "96 MW",
+    inicio_de_operacao: 2006,
+    proprietario: "Engie",
+    observacao: "Aproveitamento hidrelétrico do Rio Canoas"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 44, 
+    nome: "Usina Hidrelétrica de Canoas II", 
+    rio: "Rio Canoas",
+    bacia: "Bacia do Rio Canoas",
+    sub_bacia: "Sub-bacia do Rio Canoas",
+    estado: "Santa Catarina",
+    potencia_instalada: "118 MW",
+    inicio_de_operacao: 2006,
+    proprietario: "Engie",
+    observacao: "Segunda fase do aproveitamento hidrelétrico do Rio Canoas"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 45, 
+    nome: "Usina Hidrelétrica de Machadinho", 
+    rio: "Rio Pelotas",
+    bacia: "Bacia do Rio Uruguai",
+    sub_bacia: "Sub-bacia do Rio Pelotas",
+    estado: "Santa Catarina",
+    potencia_instalada: "1,140 MW",
+    inicio_de_operacao: 2002,
+    proprietario: "Engie",
+    observacao: "Complexo de usinas no Rio Pelotas"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 46, 
+    nome: "Usina Hidrelétrica de Barra Grande", 
+    rio: "Rio Pelotas",
+    bacia: "Bacia do Rio Uruguai",
+    sub_bacia: "Sub-bacia do Rio Pelotas",
+    estado: "Santa Catarina",
+    potencia_instalada: "1,075 MW",
+    inicio_de_operacao: 2005,
+    proprietario: "Engie",
+    observacao: "Parte do complexo de usinas no Rio Pelotas"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 47, 
+    nome: "Usina Hidrelétrica de Monjolinho", 
+    rio: "Rio Jacuí",
+    bacia: "Bacia do Rio Jacuí",
+    sub_bacia: "Sub-bacia do Rio Jacuí",
+    estado: "Rio Grande do Sul",
+    potencia_instalada: "192 MW",
+    inicio_de_operacao: 1990,
+    proprietario: "Engie",
+    observacao: "Usina localizada no Rio Jacuí"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 48, 
+    nome: "Usina Hidrelétrica de Dona Francisca", 
+    rio: "Rio Jacuí",
+    bacia: "Bacia do Rio Jacuí",
+    sub_bacia: "Sub-bacia do Rio Jacuí",
+    estado: "Rio Grande do Sul",
+    potencia_instalada: "192 MW",
+    inicio_de_operacao: 1998,
+    proprietario: "Engie",
+    observacao: "Aproveitamento hidrelétrico no Rio Jacuí"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 49, 
+    nome: "Usina Hidrelétrica de Salto Osório", 
+    rio: "Rio Canoas",
+    bacia: "Bacia do Rio Canoas",
+    sub_bacia: "Sub-bacia do Rio Canoas",
+    estado: "Santa Catarina",
+    potencia_instalada: "156 MW",
+    inicio_de_operacao: 2010,
+    proprietario: "Engie",
+    observacao: "Aproveitamento hidrelétrico no Rio Canoas"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 50, 
+    nome: "Usina Hidrelétrica Governador José Richa", 
+    rio: "Rio das Cinzas",
+    bacia: "Bacia do Rio das Cinzas",
+    sub_bacia: "Sub-bacia do Rio das Cinzas",
+    estado: "Paraná",
+    potencia_instalada: "1,240 MW",
+    inicio_de_operacao: 1990,
+    proprietario: "Engie",
+    observacao: "Também conhecida como Usina Salto Caxias"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 51, 
+    nome: "Usina Hidrelétrica de Salto Santiago", 
+    rio: "Rio Pelotas",
+    bacia: "Bacia do Rio Uruguai",
+    sub_bacia: "Sub-bacia do Rio Pelotas",
+    estado: "Santa Catarina",
+    potencia_instalada: "1,420 MW",
+    inicio_de_operacao: 2011,
+    proprietario: "Engie",
+    observacao: "Parte do complexo de usinas no Rio Pelotas"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 52, 
+    nome: "Usina Hidrelétrica de Salto Pilão", 
+    rio: "Rio Pelotas",
+    bacia: "Bacia do Rio Uruguai",
+    sub_bacia: "Sub-bacia do Rio Pelotas",
+    estado: "Santa Catarina",
+    potencia_instalada: "886 MW",
+    inicio_de_operacao: 2011,
+    proprietario: "Engie",
+    observacao: "Parte do complexo de usinas no Rio Pelotas"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 53, 
+    nome: "Usina Hidrelétrica de Salto Osório II", 
+    rio: "Rio Canoas",
+    bacia: "Bacia do Rio Canoas",
+    sub_bacia: "Sub-bacia do Rio Canoas",
+    estado: "Santa Catarina",
+    potencia_instalada: "56 MW",
+    inicio_de_operacao: 2012,
+    proprietario: "Engie",
+    observacao: "Expansão do aproveitamento hidrelétrico no Rio Canoas"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 54, 
+    nome: "Usina Hidrelétrica de Peixe Angical", 
+    rio: "Rio Tocantins",
+    bacia: "Bacia do Rio Tocantins",
+    sub_bacia: "Sub-bacia do Rio Tocantins",
+    estado: "Tocantins",
+    potencia_instalada: "452 MW",
+    inicio_de_operacao: 2006,
+    proprietario: "Energias do Brasil",
+    observacao: "Aproveitamento hidrelétrico no Rio Tocantins"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 55, 
+    nome: "Usina Hidrelétrica de Serra da Mesa", 
+    rio: "Rio Tocantins",
+    bacia: "Bacia do Rio Tocantins",
+    sub_bacia: "Sub-bacia do Rio Tocantins",
+    estado: "Goiás",
+    potencia_instalada: "1,275 MW",
+    inicio_de_operacao: 1998,
+    proprietario: "Engie",
+    observacao: "Reservatório com grande capacidade de armazenamento"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 56, 
+    nome: "Usina Hidrelétrica de Samuel", 
+    rio: "Rio Tocantins",
+    bacia: "Bacia do Rio Tocantins",
+    sub_bacia: "Sub-bacia do Rio Tocantins",
+    estado: "Tocantins",
+    potencia_instalada: "1,020 MW",
+    inicio_de_operacao: 2010,
+    proprietario: "Engie",
+    observacao: "Aproveitamento hidrelétrico no Rio Tocantins"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 57, 
+    nome: "Usina Hidrelétrica de Peixe", 
+    rio: "Rio Tocantins",
+    bacia: "Bacia do Rio Tocantins",
+    sub_bacia: "Sub-bacia do Rio Tocantins",
+    estado: "Tocantins",
+    potencia_instalada: "452 MW",
+    inicio_de_operacao: 2006,
+    proprietario: "Energias do Brasil",
+    observacao: "Aproveitamento hidrelétrico no Rio Tocantins"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 58, 
+    nome: "Usina Hidrelétrica de Marimbondo", 
+    rio: "Rio Grande",
+    bacia: "Bacia do Rio Grande",
+    sub_bacia: "Sub-bacia do Rio Grande",
+    estado: "Minas Gerais",
+    potencia_instalada: "400 MW",
+    inicio_de_operacao: 2002,
+    proprietario: "Engie",
+    observacao: "Usina no Rio Grande, divisa entre Minis Gerais e São Paulo"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 59, 
+    nome: "Usina Hidrelétrica de Emborcação", 
+    rio: "Rio Grande",
+    bacia: "Bacia do Rio Grande",
+    sub_bacia: "Sub-bacia do Rio Grande",
+    estado: "Minas Gerais",
+    potencia_instalada: "1,192 MW",
+    inicio_de_operacao: 2002,
+    proprietario: "Engie",
+    observacao: "Usina no Rio Grande, divisa entre Minas Gerais e São Paulo"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 60, 
+    nome: "Usina Hidrelétrica de Nova Ponte", 
+    rio: "Rio Araguari",
+    bacia: "Bacia do Rio Paranaíba",
+    sub_bacia: "Sub-bacia do Rio Araguari",
+    estado: "Minas Gerais",
+    potencia_instalada: "306 MW",
+    inicio_de_operacao: 1989,
+    proprietario: "Engie",
+    observacao: "Aproveitamento hidrelétrico no Rio Araguari"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 61, 
+    nome: "Usina Hidrelétrica de Porto Colômbia", 
+    rio: "Rio Grande",
+    bacia: "Bacia do Rio Grande",
+    sub_bacia: "Sub-bacia do Rio Grande",
+    estado: "São Paulo",
+    potencia_instalada: "1,676 MW",
+    inicio_de_operacao: 1970,
+    proprietario: "Engie",
+    observacao: "Aproveitamento hidrelétrico no Rio Grande"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 62, 
+    nome: "Usina Hidrelétrica de Euclides da Cunha", 
+    rio: "Rio Grande",
+    bacia: "Bacia do Rio Grande",
+    sub_bacia: "Sub-bacia do Rio Grande",
+    estado: "São Paulo",
+    potencia_instalada: "1,551 MW",
+    inicio_de_operacao: 1968,
+    proprietario: "Engie",
+    observacao: "Aproveitamento hidrelétrico no Rio Grande"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 63, 
+    nome: "Usina Hidrelétrica de Engenheiro Sérgio Motta (Porto Primavera)", 
+    rio: "Rio Paraná",
+    bacia: "Bacia do Rio Paraná",
+    sub_bacia: "Sub-bacia do Rio Paraná",
+    estado: "São Paulo",
+    potencia_instalada: "1,540 MW",
+    inicio_de_operacao: 1999,
+    proprietario: "CTG Brasil",
+    observacao: "Usina no Rio Paraná, divisa entre São Paulo e Mato Grosso do Sul"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 64, 
+    nome: "Usina Hidrelétrica de Ilha Solteira", 
+    rio: "Rio Paraná",
+    bacia: "Bacia do Rio Paraná",
+    sub_bacia: "Sub-bacia do Rio Paraná",
+    estado: "São Paulo",
+    potencia_instalada: "3,444 MW",
+    inicio_de_operacao: 1973,
+    proprietario: "CTG Brasil",
+    observacao: "Usina no Rio Paraná, divisa entre São Paulo e Mato Grosso do Sul"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 65, 
+    nome: "Usina Hidrelétrica de Ilha Grande", 
+    rio: "Rio Paraná",
+    bacia: "Bacia do Rio Paraná",
+    sub_bacia: "Sub-bacia do Rio Paraná",
+    estado: "São Paulo",
+    potencia_instalada: "3,750 MW",
+    inicio_de_operacao: 1998,
+    proprietario: "CTG Brasil",
+    observacao: "Usina no Rio Paraná, divisa entre São Paulo e Mato Grosso do Sul"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 66, 
+    nome: "Usina Hidrelétrica de Jupiá", 
+    rio: "Rio Paraná",
+    bacia: "Bacia do Rio Paraná",
+    sub_bacia: "Sub-bacia do Rio Paraná",
+    estado: "São Paulo",
+    potencia_instalada: "1,551 MW",
+    inicio_de_operacao: 1974,
+    proprietario: "CTG Brasil",
+    observacao: "Usina no Rio Paraná, divisa entre São Paulo e Mato Grosso do Sul"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 67, 
+    nome: "Usina Hidrelétrica de Mauá", 
+    rio: "Rio Tibagi",
+    bacia: "Bacia do Rio Tibagi",
+    sub_bacia: "Sub-bacia do Rio Tibagi",
+    estado: "Paraná",
+    potencia_instalada: "360 MW",
+    inicio_de_operacao: 1980,
+    proprietario: "Engie",
+    observacao: "Aproveitamento hidrelétrico no Rio Tibagi"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 68, 
+    nome: "Usina Hidrelétrica de Capivara", 
+    rio: "Rio Paranapanema",
+    bacia: "Bacia do Rio Paranapanema",
+    sub_bacia: "Sub-bacia do Rio Paranapanema",
+    estado: "Paraná",
+    potencia_instalada: "130 MW",
+    inicio_de_operacao: 1969,
+    proprietario: "Engie",
+    observacao: "Aproveitamento hidrelétrico no Rio Paranapanema"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 69, 
+    nome: "Usina Hidrelétrica de Rosana", 
+    rio: "Rio Paranapanema",
+    bacia: "Bacia do Rio Paranapanema",
+    sub_bacia: "Sub-bacia do Rio Paranapanema",
+    estado: "São Paulo",
+    potencia_instalada: "1,285 MW",
+    inicio_de_operacao: 1987,
+    proprietario: "Engie",
+    observacao: "Aproveitamento hidrelétrico no Rio Paranapanema"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 70, 
+    nome: "Usina Hidrelétrica de Chavantes", 
+    rio: "Rio Paranapanema",
+    bacia: "Bacia do Rio Paranapanema",
+    sub_bacia: "Sub-bacia do Rio Paranapanema",
+    estado: "São Paulo",
+    potencia_instalada: "1,250 MW",
+    inicio_de_operacao: 1970,
+    proprietario: "Engie",
+    observacao: "Aproveitamento hidrelétrico no Rio Paranapanema"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 81, 
+    nome: "Usina Hidrelétrica de Barra Grande", 
+    rio: "Rio Pelotas",
+    bacia: "Bacia do Rio Pelotas",
+    sub_bacia: "Sub-bacia do Rio Pelotas",
+    estado: "Santa Catarina",
+    potencia_instalada: "1,192 MW",
+    inicio_de_operacao: 2005,
+    proprietario: "Engie Brasil Energia",
+    observacao: "Aproveitamento hidrelétrico no Rio Pelotas"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 82, 
+    nome: "Usina Hidrelétrica de Jirau", 
+    rio: "Rio Madeira",
+    bacia: "Bacia do Rio Madeira",
+    sub_bacia: "Sub-bacia do Rio Madeira",
+    estado: "Rondônia",
+    potencia_instalada: "3,750 MW",
+    inicio_de_operacao: 2013,
+    proprietario: "Engie Brasil Energia",
+    observacao: "Aproveitamento hidrelétrico no Rio Madeira"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 83, 
+    nome: "Usina Hidrelétrica de Santo Antônio", 
+    rio: "Rio Madeira",
+    bacia: "Bacia do Rio Madeira",
+    sub_bacia: "Sub-bacia do Rio Madeira",
+    estado: "Rondônia",
+    potencia_instalada: "3,150 MW",
+    inicio_de_operacao: 2012,
+    proprietario: "Engie Brasil Energia",
+    observacao: "Aproveitamento hidrelétrico no Rio Madeira"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 84, 
+    nome: "Usina Hidrelétrica de Teles Pires", 
+    rio: "Rio Teles Pires",
+    bacia: "Bacia do Rio Teles Pires",
+    sub_bacia: "Sub-bacia do Rio Teles Pires",
+    estado: "Mato Grosso",
+    potencia_instalada: "1,820 MW",
+    inicio_de_operacao: 2015,
+    proprietario: "Engie Brasil Energia",
+    observacao: "Aproveitamento hidrelétrico no Rio Teles Pires"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 85, 
+    nome: "Usina Hidrelétrica de São Manoel", 
+    rio: "Rio Teles Pires",
+    bacia: "Bacia do Rio Teles Pires",
+    sub_bacia: "Sub-bacia do Rio Teles Pires",
+    estado: "Mato Grosso",
+    potencia_instalada: "700 MW",
+    inicio_de_operacao: 2018,
+    proprietario: "Engie Brasil Energia",
+    observacao: "Aproveitamento hidrelétrico no Rio Teles Pires"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 86, 
+    nome: "Usina Hidrelétrica de Sinop", 
+    rio: "Rio Teles Pires",
+    bacia: "Bacia do Rio Teles Pires",
+    sub_bacia: "Sub-bacia do Rio Teles Pires",
+    estado: "Mato Grosso",
+    potencia_instalada: "401 MW",
+    inicio_de_operacao: 2019,
+    proprietario: "Engie Brasil Energia",
+    observacao: "Aproveitamento hidrelétrico no Rio Teles Pires"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 87, 
+    nome: "Usina Hidrelétrica de Belo Monte", 
+    rio: "Rio Xingu",
+    bacia: "Bacia do Rio Xingu",
+    sub_bacia: "Sub-bacia do Rio Xingu",
+    estado: "Pará",
+    potencia_instalada: "11,233 MW",
+    inicio_de_operacao: 2016,
+    proprietario: "Consortium Norte Energia",
+    observacao: "Aproveitamento hidrelétrico no Rio Xingu"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 88, 
+    nome: "Usina Hidrelétrica de Estreito", 
+    rio: "Rio Tocantins",
+    bacia: "Bacia do Rio Tocantins",
+    sub_bacia: "Sub-bacia do Rio Tocantins",
+    estado: "Tocantins e Maranhão",
+    potencia_instalada: "1,087 MW",
+    inicio_de_operacao: 2010,
+    proprietario: "Furnas",
+    observacao: "Aproveitamento hidrelétrico no Rio Tocantins"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 89, 
+    nome: "Usina Hidrelétrica de Lajeado", 
+    rio: "Rio Tocantins",
+    bacia: "Bacia do Rio Tocantins",
+    sub_bacia: "Sub-bacia do Rio Tocantins",
+    estado: "Tocantins",
+    potencia_instalada: "902 MW",
+    inicio_de_operacao: 2001,
+    proprietario: "Enerpeixe",
+    observacao: "Aproveitamento hidrelétrico no Rio Tocantins"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 90, 
+    nome: "Usina Hidrelétrica de Serra da Mesa", 
+    rio: "Rio Tocantins",
+    bacia: "Bacia do Rio Tocantins",
+    sub_bacia: "Sub-bacia do Rio Tocantins",
+    estado: "Goiás",
+    potencia_instalada: "1,275 MW",
+    inicio_de_operacao: 1998,
+    proprietario: "UHE Serra da Mesa",
+    observacao: "Aproveitamento hidrelétrico no Rio Tocantins"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 91, 
+    nome: "Usina Hidrelétrica de São Salvador", 
+    rio: "Rio Uruguai",
+    bacia: "Bacia do Rio Uruguai",
+    sub_bacia: "Sub-bacia do Rio Uruguai",
+    estado: "Santa Catarina e Rio Grande do Sul",
+    potencia_instalada: "1,380 MW",
+    inicio_de_operacao: 2019,
+    proprietario: "Engie Brasil Energia",
+    observacao: "Aproveitamento hidrelétrico no Rio Uruguai"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 92, 
+    nome: "Usina Hidrelétrica de Passo São João", 
+    rio: "Rio Uruguai",
+    bacia: "Bacia do Rio Uruguai",
+    sub_bacia: "Sub-bacia do Rio Uruguai",
+    estado: "Santa Catarina e Rio Grande do Sul",
+    potencia_instalada: "77 MW",
+    inicio_de_operacao: 2010,
+    proprietario: "Engie Brasil Energia",
+    observacao: "Aproveitamento hidrelétrico no Rio Uruguai"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 93, 
+    nome: "Usina Hidrelétrica de Itá", 
+    rio: "Rio Uruguai",
+    bacia: "Bacia do Rio Uruguai",
+    sub_bacia: "Sub-bacia do Rio Uruguai",
+    estado: "Santa Catarina e Rio Grande do Sul",
+    potencia_instalada: "1,450 MW",
+    inicio_de_operacao: 2000,
+    proprietario: "Tractebel Energia",
+    observacao: "Aproveitamento hidrelétrico no Rio Uruguai"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 94, 
+    nome: "Usina Hidrelétrica de Machadinho", 
+    rio: "Rio Uruguai",
+    bacia: "Bacia do Rio Uruguai",
+    sub_bacia: "Sub-bacia do Rio Uruguai",
+    estado: "Santa Catarina e Rio Grande do Sul",
+    potencia_instalada: "1,140 MW",
+    inicio_de_operacao: 2002,
+    proprietario: "Tractebel Energia",
+    observacao: "Aproveitamento hidrelétrico no Rio Uruguai"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 95, 
+    nome: "Usina Hidrelétrica de Monjolinho", 
+    rio: "Rio Uruguai",
+    bacia: "Bacia do Rio Uruguai",
+    sub_bacia: "Sub-bacia do Rio Uruguai",
+    estado: "Santa Catarina e Rio Grande do Sul",
+    potencia_instalada: "44 MW",
+    inicio_de_operacao: 2002,
+    proprietario: "Tractebel Energia",
+    observacao: "Aproveitamento hidrelétrico no Rio Uruguai"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 96, 
+    nome: "Usina Hidrelétrica de Jacuí", 
+    rio: "Rio Jacuí",
+    bacia: "Bacia do Rio Jacuí",
+    sub_bacia: "Sub-bacia do Rio Jacuí",
+    estado: "Rio Grande do Sul",
+    potencia_instalada: "400 MW",
+    inicio_de_operacao: 1969,
+    proprietario: "CERAN",
+    observacao: "Aproveitamento hidrelétrico no Rio Jacuí"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 97, 
+    nome: "Usina Hidrelétrica de Ernestina", 
+    rio: "Rio Jacuí",
+    bacia: "Bacia do Rio Jacuí",
+    sub_bacia: "Sub-bacia do Rio Jacuí",
+    estado: "Rio Grande do Sul",
+    potencia_instalada: "10 MW",
+    inicio_de_operacao: 2000,
+    proprietario: "Companhia Energética Rio das Antas",
+    observacao: "Aproveitamento hidrelétrico no Rio Jacuí"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 98, 
+    nome: "Usina Hidrelétrica de Dona Francisca", 
+    rio: "Rio Jacuí",
+    bacia: "Bacia do Rio Jacuí",
+    sub_bacia: "Sub-bacia do Rio Jacuí",
+    estado: "Rio Grande do Sul",
+    potencia_instalada: "29 MW",
+    inicio_de_operacao: 2000,
+    proprietario: "Companhia Energética Rio das Antas",
+    observacao: "Aproveitamento hidrelétrico no Rio Jacuí"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 99, 
+    nome: "Usina Hidrelétrica Machadinho II", 
+    rio: "Rio Jacuí",
+    bacia: "Bacia do Rio Jacuí",
+    sub_bacia: "Sub-bacia do Rio Jacuí",
+    estado: "Rio Grande do Sul",
+    potencia_instalada: "1,140 MW",
+    inicio_de_operacao: 2002,
+    proprietario: "Companhia Energética Rio das Antas",
+    observacao: "Aproveitamento hidrelétrico no Rio Jacuí"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 100, 
+    nome: "Usina Hidrelétrica Passo Fundo", 
+    rio: "Rio Jacuí",
+    bacia: "Bacia do Rio Jacuí",
+    sub_bacia: "Sub-bacia do Rio Jacuí",
+    estado: "Rio Grande do Sul",
+    potencia_instalada: "192 MW",
+    inicio_de_operacao: 2008,
+    proprietario: "Companhia Energética Rio das Antas",
+    observacao: "Aproveitamento hidrelétrico no Rio Jacuí"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 101, 
+    nome: "Usina Hidrelétrica Belo Monte", 
+    rio: "Rio Xingu",
+    bacia: "Bacia do Rio Xingu",
+    sub_bacia: "Sub-bacia do Rio Xingu",
+    estado: "Pará",
+    potencia_instalada: "11,233 MW",
+    inicio_de_operacao: 2016,
+    proprietario: "Norte Energia S.A.",
+    observacao: "Terceira maior usina do mundo em capacidade de geração"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 102, 
+    nome: "Usina Hidrelétrica Tucuruí", 
+    rio: "Rio Tocantins",
+    bacia: "Bacia do Tocantins",
+    sub_bacia: "Sub-bacia do Tocantins",
+    estado: "Pará",
+    potencia_instalada: "8,370 MW",
+    inicio_de_operacao: 1984,
+    proprietario: "Eletronorte",
+    observacao: "Primeira grande usina na bacia do Tocantins"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 103, 
+    nome: "Usina Hidrelétrica Ilha Solteira", 
+    rio: "Rio Paraná",
+    bacia: "Bacia do Paraná",
+    sub_bacia: "Sub-bacia do Paraná",
+    estado: "São Paulo",
+    potencia_instalada: "3,444 MW",
+    inicio_de_operacao: 1973,
+    proprietario: "Cesp (Companhia Energética de São Paulo)",
+    observacao: "Maior usina do estado de São Paulo"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 104, 
+    nome: "Usina Hidrelétrica Jupiá", 
+    rio: "Rio Paraná",
+    bacia: "Bacia do Paraná",
+    sub_bacia: "Sub-bacia do Paraná",
+    estado: "São Paulo",
+    potencia_instalada: "1,551 MW",
+    inicio_de_operacao: 1969,
+    proprietario: "Cesp (Companhia Energética de São Paulo)",
+    observacao: "Compartilhada com o Mato Grosso do Sul"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 105, 
+    nome: "Usina Hidrelétrica Água Vermelha", 
+    rio: "Rio Grande",
+    bacia: "Bacia do Grande",
+    sub_bacia: "Sub-bacia do Grande",
+    estado: "Minas Gerais",
+    potencia_instalada: "1,396 MW",
+    inicio_de_operacao: 1998,
+    proprietario: "Cemig (Companhia Energética de Minas Gerais)",
+    observacao: "Construída em parceria com o estado de São Paulo"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 106, 
+    nome: "Usina Hidrelétrica Três Irmãos", 
+    rio: "Rio Tietê",
+    bacia: "Bacia do Tietê",
+    sub_bacia: "Sub-bacia do Tietê",
+    estado: "São Paulo",
+    potencia_instalada: "807 MW",
+    inicio_de_operacao: 1991,
+    proprietario: "Cesp (Companhia Energética de São Paulo)",
+    observacao: "Conjunto de três barragens"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 107, 
+    nome: "Usina Hidrelétrica São Simão", 
+    rio: "Rio Paranaíba",
+    bacia: "Bacia do Paranaíba",
+    sub_bacia: "Sub-bacia do Paranaíba",
+    estado: "Goiás",
+    potencia_instalada: "1,710 MW",
+    inicio_de_operacao: 1978,
+    proprietario: "Engie Brasil Energia",
+    observacao: "Compartilhada com Minas Gerais"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 108, 
+    nome: "Usina Hidrelétrica Furnas", 
+    rio: "Rio Grande",
+    bacia: "Bacia do Grande",
+    sub_bacia: "Sub-bacia do Grande",
+    estado: "Minas Gerais",
+    potencia_instalada: "1,216 MW",
+    inicio_de_operacao: 1963,
+    proprietario: "Furnas Centrais Elétricas",
+    observacao: "Primeira usina a ser construída no rio Grande"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 109, 
+    nome: "Usina Hidrelétrica Cana Brava", 
+    rio: "Rio Tocantins",
+    bacia: "Bacia do Tocantins",
+    sub_bacia: "Sub-bacia do Tocantins",
+    estado: "Tocantins",
+    potencia_instalada: "450 MW",
+    inicio_de_operacao: 2010,
+    proprietario: "Engie Brasil Energia",
+    observacao: "Localizada entre as usinas Serra da Mesa e Peixe Angical"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 110, 
+    nome: "Usina Hidrelétrica Salto Osório", 
+    rio: "Rio Iguaçu",
+    bacia: "Bacia do Iguaçu",
+    sub_bacia: "Sub-bacia do Iguaçu",
+    estado: "Paraná",
+    potencia_instalada: "1,078 MW",
+    inicio_de_operacao: 1979,
+    proprietario: "Copel Geração e Transmissão S.A.",
+    observacao: "Localizada no trecho superior do rio Iguaçu"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 111, 
+    nome: "Usina Hidrelétrica Porto Primavera", 
+    rio: "Rio Paraná",
+    bacia: "Bacia do Paraná",
+    sub_bacia: "Sub-bacia do Paraná",
+    estado: "São Paulo",
+    potencia_instalada: "1,540 MW",
+    inicio_de_operacao: 2001,
+    proprietario: "CTG Brasil",
+    observacao: "Localizada no rio Paraná na divisa entre São Paulo e Mato Grosso do Sul"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 112, 
+    nome: "Usina Hidrelétrica Ponte de Pedra", 
+    rio: "Rio Paraíba do Sul",
+    bacia: "Bacia do Paraíba do Sul",
+    sub_bacia: "Sub-bacia do Paraíba do Sul",
+    estado: "São Paulo",
+    potencia_instalada: "83 MW",
+    inicio_de_operacao: 1949,
+    proprietario: "Engie Brasil Energia",
+    observacao: "Primeira usina da Engie no Brasil"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 113, 
+    nome: "Usina Hidrelétrica Santa Clara", 
+    rio: "Rio Iguaçu",
+    bacia: "Bacia do Iguaçu",
+    sub_bacia: "Sub-bacia do Iguaçu",
+    estado: "Santa Catarina",
+    potencia_instalada: "332 MW",
+    inicio_de_operacao: 2002,
+    proprietario: "Tractebel Energia",
+    observacao: "Localizada no rio Iguaçu, na divisa entre SC e PR"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 114, 
+    nome: "Usina Hidrelétrica Segredo", 
+    rio: "Rio Pelotas",
+    bacia: "Bacia do Pelotas",
+    sub_bacia: "Sub-bacia do Pelotas",
+    estado: "Santa Catarina",
+    potencia_instalada: "1,390 MW",
+    inicio_de_operacao: 2003,
+    proprietario: "Tractebel Energia",
+    observacao: "Localizada no rio Pelotas, na divisa entre SC e RS"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 115, 
+    nome: "Usina Hidrelétrica Foz do Chapecó", 
+    rio: "Rio Uruguai",
+    bacia: "Bacia do Uruguai",
+    sub_bacia: "Sub-bacia do Uruguai",
+    estado: "Santa Catarina",
+    potencia_instalada: "855 MW",
+    inicio_de_operacao: 2010,
+    proprietario: "Foz do Chapecó Energia S.A.",
+    observacao: "Construída no rio Uruguai, na divisa entre SC e RS"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 116, 
+    nome: "Usina Hidrelétrica Machadinho", 
+    rio: "Rio Uruguai",
+    bacia: "Bacia do Uruguai",
+    sub_bacia: "Sub-bacia do Uruguai",
+    estado: "Santa Catarina",
+    potencia_instalada: "1,140 MW",
+    inicio_de_operacao: 2002,
+    proprietario: "Tractebel Energia",
+    observacao: "Localizada no rio Uruguai, na divisa entre SC e RS"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 117, 
+    nome: "Usina Hidrelétrica Itá", 
+    rio: "Rio Uruguai",
+    bacia: "Bacia do Uruguai",
+    sub_bacia: "Sub-bacia do Uruguai",
+    estado: "Santa Catarina",
+    potencia_instalada: "1,450 MW",
+    inicio_de_operacao: 2000,
+    proprietario: "Engie Brasil Energia",
+    observacao: "Localizada no rio Uruguai, na divisa entre SC e RS"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 118, 
+    nome: "Usina Hidrelétrica Passo São João", 
+    rio: "Rio Pelotas",
+    bacia: "Bacia do Pelotas",
+    sub_bacia: "Sub-bacia do Pelotas",
+    estado: "Santa Catarina",
+    potencia_instalada: "77 MW",
+    inicio_de_operacao: 2007,
+    proprietario: "Engie Brasil Energia",
+    observacao: "Localizada no rio Pelotas, na divisa entre SC e RS"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 119, 
+    nome: "Usina Hidrelétrica Quebra Queixo", 
+    rio: "Rio Uruguai",
+    bacia: "Bacia do Uruguai",
+    sub_bacia: "Sub-bacia do Uruguai",
+    estado: "Rio Grande do Sul",
+    potencia_instalada: "144 MW",
+    inicio_de_operacao: 2001,
+    proprietario: "Engie Brasil Energia",
+    observacao: "Localizada no rio Uruguai, divisa entre RS e SC"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 120, 
+    nome: "Usina Hidrelétrica 14 de Julho", 
+    rio: "Rio das Antas",
+    bacia: "Bacia do Rio das Antas",
+    sub_bacia: "Sub-bacia do Rio das Antas",
+    estado: "Santa Catarina",
+    potencia_instalada: "191 MW",
+    inicio_de_operacao: 2001,
+    proprietario: "Engie Brasil Energia",
+    observacao: "Aproveitamento hidrelétrico no Rio das Antas"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 121, 
+    nome: "Usina Hidrelétrica Passo Fundo II", 
+    rio: "Rio Jacuí",
+    bacia: "Bacia do Rio Jacuí",
+    sub_bacia: "Sub-bacia do Rio Jacuí",
+    estado: "Rio Grande do Sul",
+    potencia_instalada: "123 MW",
+    inicio_de_operacao: 2012,
+    proprietario: "Companhia Energética Rio das Antas",
+    observacao: "Expansão da Usina Hidrelétrica Passo Fundo"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 122, 
+    nome: "Usina Hidrelétrica Nova Avanhandava", 
+    rio: "Rio Tietê",
+    bacia: "Bacia do Tietê",
+    sub_bacia: "Sub-bacia do Tietê",
+    estado: "São Paulo",
+    potencia_instalada: "156 MW",
+    inicio_de_operacao: 1988,
+    proprietario: "Cesp (Companhia Energética de São Paulo)",
+    observacao: "Expansão da Usina Hidrelétrica Avanhandava"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 123, 
+    nome: "Usina Hidrelétrica Aimorés", 
+    rio: "Rio Doce",
+    bacia: "Bacia do Rio Doce",
+    sub_bacia: "Sub-bacia do Rio Doce",
+    estado: "Minas Gerais",
+    potencia_instalada: "96 MW",
+    inicio_de_operacao: 1955,
+    proprietario: "Cemig (Companhia Energética de Minas Gerais)",
+    observacao: "Primeira usina da Cemig"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 124, 
+    nome: "Usina Hidrelétrica Promissão", 
+    rio: "Rio Tietê",
+    bacia: "Bacia do Tietê",
+    sub_bacia: "Sub-bacia do Tietê",
+    estado: "São Paulo",
+    potencia_instalada: "1,018 MW",
+    inicio_de_operacao: 1972,
+    proprietario: "Cesp (Companhia Energética de São Paulo)",
+    observacao: "Segunda usina da bacia do Tietê"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 125, 
+    nome: "Usina Hidrelétrica Três Marias", 
+    rio: "Rio São Francisco",
+    bacia: "Bacia do São Francisco",
+    sub_bacia: "Sub-bacia do São Francisco",
+    estado: "Minas Gerais",
+    potencia_instalada: "396 MW",
+    inicio_de_operacao: 1961,
+    proprietario: "Cemig (Companhia Energética de Minas Gerais)",
+    observacao: "Primeira usina da bacia do São Francisco"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 126, 
+    nome: "Usina Hidrelétrica Mascarenhas de Moraes", 
+    rio: "Rio Jaguaribe",
+    bacia: "Bacia do Jaguaribe",
+    sub_bacia: "Sub-bacia do Jaguaribe",
+    estado: "Ceará",
+    potencia_instalada: "28 MW",
+    inicio_de_operacao: 1956,
+    proprietario: "Chesf (Companhia Hidro Elétrica do São Francisco)",
+    observacao: "Primeira usina da bacia do Jaguaribe"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 127, 
+    nome: "Usina Hidrelétrica Governador José Richa", 
+    rio: "Rio Iguaçu",
+    bacia: "Bacia do Iguaçu",
+    sub_bacia: "Sub-bacia do Iguaçu",
+    estado: "Paraná",
+    potencia_instalada: "1,160 MW",
+    inicio_de_operacao: 1980,
+    proprietario: "Copel Geração e Transmissão S.A.",
+    observacao: "Localizada no rio Iguaçu"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 128, 
+    nome: "Usina Hidrelétrica Três Irmãos", 
+    rio: "Rio Paraná",
+    bacia: "Bacia do Paraná",
+    sub_bacia: "Sub-bacia do Paraná",
+    estado: "São Paulo",
+    potencia_instalada: "807 MW",
+    inicio_de_operacao: 1991,
+    proprietario: "Cesp (Companhia Energética de São Paulo)",
+    observacao: "Conjunto de três barragens"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 129, 
+    nome: "Usina Hidrelétrica Capivara", 
+    rio: "Rio Paranapanema",
+    bacia: "Bacia do Paranapanema",
+    sub_bacia: "Sub-bacia do Paranapanema",
+    estado: "São Paulo",
+    potencia_instalada: "1,140 MW",
+    inicio_de_operacao: 1985,
+    proprietario: "Duke Energy International Geração Paranapanema",
+    observacao: "Localizada no rio Paranapanema"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 130, 
+    nome: "Usina Hidrelétrica Itumbiara", 
+    rio: "Rio Paranaíba",
+    bacia: "Bacia do Paranaíba",
+    sub_bacia: "Sub-bacia do Paranaíba",
+    estado: "Goiás",
+    potencia_instalada: "2,082 MW",
+    inicio_de_operacao: 1980,
+    proprietario: "Engie Brasil Energia",
+    observacao: "Compartilhada com Minas Gerais"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 131, 
+    nome: "Usina Hidrelétrica Ponte Nova", 
+    rio: "Rio Doce",
+    bacia: "Bacia do Rio Doce",
+    sub_bacia: "Sub-bacia do Rio Doce",
+    estado: "Minas Gerais",
+    potencia_instalada: "84 MW",
+    inicio_de_operacao: 1956,
+    proprietario: "Engie Brasil Energia",
+    observacao: "Localizada no rio Doce"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 132, 
+    nome: "Usina Hidrelétrica Rosal", 
+    rio: "Rio Paraíba do Sul",
+    bacia: "Bacia do Paraíba do Sul",
+    sub_bacia: "Sub-bacia do Paraíba do Sul",
+    estado: "Rio de Janeiro",
+    potencia_instalada: "140 MW",
+    inicio_de_operacao: 1949,
+    proprietario: "Light S.A.",
+    observacao: "Localizada no rio Paraíba do Sul"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 133, 
+    nome: "Usina Hidrelétrica Nova Ponte", 
+    rio: "Rio Paranaíba",
+    bacia: "Bacia do Paranaíba",
+    sub_bacia: "Sub-bacia do Paranaíba",
+    estado: "Goiás",
+    potencia_instalada: "127 MW",
+    inicio_de_operacao: 1976,
+    proprietario: "Engie Brasil Energia",
+    observacao: "Localizada no rio Paranaíba"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 134, 
+    nome: "Usina Hidrelétrica São José", 
+    rio: "Rio Iguaçu",
+    bacia: "Bacia do Iguaçu",
+    sub_bacia: "Sub-bacia do Iguaçu",
+    estado: "Paraná",
+    potencia_instalada: "1,006 MW",
+    inicio_de_operacao: 1977,
+    proprietario: "Copel Geração e Transmissão S.A.",
+    observacao: "Localizada no rio Iguaçu"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 135, 
+    nome: "Usina Hidrelétrica Jupiá", 
+    rio: "Rio Paraná",
+    bacia: "Bacia do Paraná",
+    sub_bacia: "Sub-bacia do Paraná",
+    estado: "São Paulo",
+    potencia_instalada: "1,551 MW",
+    inicio_de_operacao: 1969,
+    proprietario: "Cesp (Companhia Energética de São Paulo)",
+    observacao: "Localizada no rio Paraná"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 136, 
+    nome: "Usina Hidrelétrica Salto Santiago", 
+    rio: "Rio Iguaçu",
+    bacia: "Bacia do Iguaçu",
+    sub_bacia: "Sub-bacia do Iguaçu",
+    estado: "Paraná",
+    potencia_instalada: "1,420 MW",
+    inicio_de_operacao: 1980,
+    proprietario: "Engie Brasil Energia",
+    observacao: "Localizada no rio Iguaçu"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 137, 
+    nome: "Usina Hidrelétrica Ilha Solteira", 
+    rio: "Rio Paraná",
+    bacia: "Bacia do Paraná",
+    sub_bacia: "Sub-bacia do Paraná",
+    estado: "São Paulo",
+    potencia_instalada: "3,444 MW",
+    inicio_de_operacao: 1973,
+    proprietario: "Cesp (Companhia Energética de São Paulo)",
+    observacao: "Localizada no rio Paraná"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 138, 
+    nome: "Usina Hidrelétrica Xingó", 
+    rio: "Rio São Francisco",
+    bacia: "Bacia do São Francisco",
+    sub_bacia: "Sub-bacia do São Francisco",
+    estado: "Alagoas",
+    potencia_instalada: "3,162 MW",
+    inicio_de_operacao: 1994,
+    proprietario: "Chesf (Companhia Hidro Elétrica do São Francisco)",
+    observacao: "Localizada no rio São Francisco"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 139, 
+    nome: "Usina Hidrelétrica Porto Primavera", 
+    rio: "Rio Paraná",
+    bacia: "Bacia do Paraná",
+    sub_bacia: "Sub-bacia do Paraná",
+    estado: "São Paulo",
+    potencia_instalada: "1,540 MW",
+    inicio_de_operacao: 2001,
+    proprietario: "Cesp (Companhia Energética de São Paulo)",
+    observacao: "Localizada no rio Paraná"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 140, 
+    nome: "Usina Hidrelétrica Marimbondo", 
+    rio: "Rio Grande",
+    bacia: "Bacia do Paraná",
+    sub_bacia: "Sub-bacia do Rio Grande",
+    estado: "Minas Gerais",
+    potencia_instalada: "108 MW",
+    inicio_de_operacao: 2002,
+    proprietario: "Engie Brasil Energia",
+    observacao: "Localizada no rio Grande"
+});
+
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 141, 
+    nome: "Usina Hidrelétrica Santa Clara", 
+    rio: "Rio Pelotas",
+    bacia: "Bacia do Paraná",
+    sub_bacia: "Sub-bacia do Rio Pelotas",
+    estado: "Rio Grande do Sul",
+    potencia_instalada: "141 MW",
+    inicio_de_operacao: 2000,
+    proprietario: "Engie Brasil Energia",
+    observacao: "Localizada no rio Pelotas"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 142, 
+    nome: "Usina Hidrelétrica Engenheiro Sérgio Motta", 
+    rio: "Rio Paranapanema",
+    bacia: "Bacia do Paranapanema",
+    sub_bacia: "Sub-bacia do Paranapanema",
+    estado: "São Paulo",
+    potencia_instalada: "1,260 MW",
+    inicio_de_operacao: 1998,
+    proprietario: "Duke Energy International Geração Paranapanema",
+    observacao: "Localizada no rio Paranapanema"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 143, 
+    nome: "Usina Hidrelétrica Mauá", 
+    rio: "Rio Tibagi",
+    bacia: "Bacia do Paraná",
+    sub_bacia: "Sub-bacia do Rio Tibagi",
+    estado: "Paraná",
+    potencia_instalada: "363 MW",
+    inicio_de_operacao: 1980,
+    proprietario: "Copel Geração e Transmissão S.A.",
+    observacao: "Localizada no rio Tibagi"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 144, 
+    nome: "Usina Hidrelétrica Cana Brava", 
+    rio: "Rio Verde",
+    bacia: "Bacia do Paraná",
+    sub_bacia: "Sub-bacia do Rio Verde",
+    estado: "Goiás",
+    potencia_instalada: "510 MW",
+    inicio_de_operacao: 2010,
+    proprietario: "Enel Green Power",
+    observacao: "Localizada no rio Verde"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 145, 
+    nome: "Usina Hidrelétrica São Manoel", 
+    rio: "Rio Teles Pires",
+    bacia: "Bacia do Tapajós",
+    sub_bacia: "Sub-bacia do Rio Teles Pires",
+    estado: "Mato Grosso",
+    potencia_instalada: "700 MW",
+    inicio_de_operacao: 2018,
+    proprietario: "Consórcio formado por EDP, Furnas e China Three Gorges",
+    observacao: "Localizada no rio Teles Pires"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 146, 
+    nome: "Usina Hidrelétrica Estreito", 
+    rio: "Rio Tocantins",
+    bacia: "Bacia do Tocantins",
+    sub_bacia: "Sub-bacia do Rio Tocantins",
+    estado: "Tocantins e Maranhão",
+    potencia_instalada: "1,087 MW",
+    inicio_de_operacao: 2012,
+    proprietario: "Consórcio formado por Cemig e Vale",
+    observacao: "Localizada no rio Tocantins"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 147, 
+    nome: "Usina Hidrelétrica Jirau", 
+    rio: "Rio Madeira",
+    bacia: "Bacia do Amazonas",
+    sub_bacia: "Sub-bacia do Rio Madeira",
+    estado: "Rondônia",
+    potencia_instalada: "3,750 MW",
+    inicio_de_operacao: 2013,
+    proprietario: "Consórcio formado por GDF Suez (atual Engie), Eletrosul, Chesf e outras",
+    observacao: "Localizada no rio Madeira"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 148, 
+    nome: "Usina Hidrelétrica Santo Antônio", 
+    rio: "Rio Madeira",
+    bacia: "Bacia do Amazonas",
+    sub_bacia: "Sub-bacia do Rio Madeira",
+    estado: "Rondônia",
+    potencia_instalada: "3,568 MW",
+    inicio_de_operacao: 2012,
+    proprietario: "Consórcio formado por Odebrecht, Andrade Gutierrez, Cemig e outras",
+    observacao: "Localizada no rio Madeira"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 149, 
+    nome: "Usina Hidrelétrica Simplício", 
+    rio: "Rio Paraíba do Sul",
+    bacia: "Bacia do Paraíba do Sul",
+    sub_bacia: "Sub-bacia do Paraíba do Sul",
+    estado: "Rio de Janeiro",
+    potencia_instalada: "334 MW",
+    inicio_de_operacao: 2016,
+    proprietario: "Consórcio formado por Cemig, Light e Vale",
+    observacao: "Localizada no rio Paraíba do Sul"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 150, 
+    nome: "Usina Hidrelétrica Teles Pires", 
+    rio: "Rio Teles Pires",
+    bacia: "Bacia do Tapajós",
+    sub_bacia: "Sub-bacia do Rio Teles Pires",
+    estado: "Mato Grosso e Pará",
+    potencia_instalada: "1,820 MW",
+    inicio_de_operacao: 2015,
+    proprietario: "Consórcio formado por Eletrobras, Cemig, Chesf e outras",
+    observacao: "Localizada no rio Teles Pires"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 151, 
+    nome: "Usina Hidrelétrica Baixo Iguaçu", 
+    rio: "Rio Iguaçu",
+    bacia: "Bacia do Iguaçu",
+    sub_bacia: "Sub-bacia do Iguaçu",
+    estado: "Paraná",
+    potencia_instalada: "350 MW",
+    inicio_de_operacao: 2019,
+    proprietario: "Consórcio form
+
+ado por Neoenergia e Copel",
+    observacao: "Localizada no rio Iguaçu"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 152, 
+    nome: "Usina Hidrelétrica Colíder", 
+    rio: "Rio Teles Pires",
+    bacia: "Bacia do Tapajós",
+    sub_bacia: "Sub-bacia do Rio Teles Pires",
+    estado: "Mato Grosso",
+    potencia_instalada: "300 MW",
+    inicio_de_operacao: 2015,
+    proprietario: "Consórcio formado por Eletrobras, Chesf, Vale e outras",
+    observacao: "Localizada no rio Teles Pires"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 153, 
+    nome: "Usina Hidrelétrica Belo Monte", 
+    rio: "Rio Xingu",
+    bacia: "Bacia do Amazonas",
+    sub_bacia: "Sub-bacia do Rio Xingu",
+    estado: "Pará",
+    potencia_instalada: "11,233 MW",
+    inicio_de_operacao: 2016,
+    proprietario: "Consórcio Norte Energia",
+    observacao: "Localizada no rio Xingu"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 154, 
+    nome: "Usina Hidrelétrica Itaocara", 
+    rio: "Rio Paraíba do Sul",
+    bacia: "Bacia do Paraíba do Sul",
+    sub_bacia: "Sub-bacia do Paraíba do Sul",
+    estado: "Rio de Janeiro",
+    potencia_instalada: "150 MW",
+    inicio_de_operacao: 2010,
+    proprietario: "EDP Brasil",
+    observacao: "Localizada no rio Paraíba do Sul"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 155, 
+    nome: "Usina Hidrelétrica Risoleta Neves", 
+    rio: "Rio Paraibuna",
+    bacia: "Bacia do Paraíba do Sul",
+    sub_bacia: "Sub-bacia do Paraíba do Sul",
+    estado: "Minas Gerais",
+    potencia_instalada: "8 MW",
+    inicio_de_operacao: 2010,
+    proprietario: "CEM",
+    observacao: "Localizada no rio Paraibuna"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 156, 
+    nome: "Usina Hidrelétrica Sinop", 
+    rio: "Rio Teles Pires",
+    bacia: "Bacia do Tapajós",
+    sub_bacia: "Sub-bacia do Rio Teles Pires",
+    estado: "Mato Grosso",
+    potencia_instalada: "401 MW",
+    inicio_de_operacao: 2019,
+    proprietario: "Consórcio formado por EDP Brasil e China Three Gorges",
+    observacao: "Localizada no rio Teles Pires"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 157, 
+    nome: "Usina Hidrelétrica São Salvador", 
+    rio: "Rio Uruguai",
+    bacia: "Bacia do Uruguai",
+    sub_bacia: "Sub-bacia do Rio Uruguai",
+    estado: "Santa Catarina e Rio Grande do Sul",
+    potencia_instalada: "180 MW",
+    inicio_de_operacao: 1997,
+    proprietario: "Tractebel Energia",
+    observacao: "Localizada no rio Uruguai"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 158, 
+    nome: "Usina Hidrelétrica Garibaldi", 
+    rio: "Rio Pelotas",
+    bacia: "Bacia do Paraná",
+    sub_bacia: "Sub-bacia do Rio Pelotas",
+    estado: "Santa Catarina e Rio Grande do Sul",
+    potencia_instalada: "192 MW",
+    inicio_de_operacao: 2009,
+    proprietario: "Engie Brasil Energia",
+    observacao: "Localizada no rio Pelotas"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 159, 
+    nome: "Usina Hidrelétrica Lageado", 
+    rio: "Rio Pelotas",
+    bacia: "Bacia do Paraná",
+    sub_bacia: "Sub-bacia do Rio Pelotas",
+    estado: "Santa Catarina e Rio Grande do Sul",
+    potencia_instalada: "880 MW",
+    inicio_de_operacao: 2002,
+    proprietario: "Engie Brasil Energia",
+    observacao: "Localizada no rio Pelotas"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 160, 
+    nome: "Usina Hidrelétrica Machadinho", 
+    rio: "Rio Pelotas",
+    bacia: "Bacia do Paraná",
+    sub_bacia: "Sub-bacia do Rio Pelotas",
+    estado: "Santa Catarina e Rio Grande do Sul",
+    potencia_instalada: "1,140 MW",
+    inicio_de_operacao: 2002,
+    proprietario: "Engie Brasil Energia",
+    observacao: "Localizada no rio Pelotas"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 161, 
+    nome: "Usina Hidrelétrica Dona Francisca", 
+    rio: "Rio Canoas",
+    bacia: "Bacia do Paraná",
+    sub_bacia: "Sub-bacia do Rio Canoas",
+    estado: "Santa Catarina e Rio Grande do Sul",
+    potencia_instalada: "92 MW",
+    inicio_de_operacao: 2001,
+    proprietario: "Engie Brasil Energia",
+    observacao: "Localizada no rio Canoas"
+});
+
+CREATE (n:Usina:Hidreletrica { 
+    id: 162, 
+    nome: "Usina Hidrelétrica Machado", 
+    rio: "Rio Canoas",
+    bacia: "Bacia do Paraná",
+    sub_bacia: "Sub-bacia do Rio Canoas",
+    estado: "Santa Catarina e Rio Grande do Sul",
+    potencia_instalada: "186 MW",
+    inicio_de_operacao: 2002,
+    proprietario: "Engie Brasil Energia",
+    observacao: "Localizada no rio Canoas"
+});
+```
+
