@@ -90,4 +90,10 @@ WHERE u.estado = 'São Paulo'
 WITH u, TOINTEGER(REPLACE(u.potencia_instalada, ' MW', '')) AS potencia
 RETURN SUM(potencia) AS somaPotencia;
 
+MATCH (u:Usina:Hidreletrica)
+WITH u.estado AS estado, TOINTEGER(REPLACE(u.potencia_instalada, ' MW', '')) AS potencia
+RETURN estado, SUM(potencia) AS somaPotencia
+ORDER BY somaPotencia DESC;
+
+
 hYK3S2NtcuS7
