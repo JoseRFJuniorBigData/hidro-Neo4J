@@ -81,3 +81,13 @@ DscPropriRegimePariticipacao: Descrição da propriedade ou regime de participa�
 DscSubBacia: Descrição da sub-bacia hidrográfica onde o empreendimento está localizado.
 
 DscMuninicpios: Descrição dos municípios onde o empreendimento está localizado.
+
+CONSULTAS:
+
+
+MATCH (u:Usina)
+WHERE u.estado = 'São Paulo'
+WITH u, TOINTEGER(REPLACE(u.potencia_instalada, ' MW', '')) AS potencia
+RETURN SUM(potencia) AS somaPotencia;
+
+hYK3S2NtcuS7
