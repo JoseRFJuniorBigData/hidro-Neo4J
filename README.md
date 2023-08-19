@@ -1,5 +1,9 @@
 HIDRO - Oracle / PostGreSQL for Neo4J
 
+<img src="img_2.png" alt="DATA">
+<img src="img_3.png" alt="DATA">
+<img src="img_4.png" alt="DATA">
+
 <img src="img.png" alt="DATA">
 
 **Projeto de Gestão de Hidrelétricas Brasileiras usando Neo4j**
@@ -85,7 +89,6 @@ DscMuninicpios: Descrição dos municípios onde o empreendimento está localiza
 CONSULTAS:
 
 <img src="img.png" alt="DATA">
-<img src="img_1.png" alt="DATA">
 
 MATCH (u:Usina)
 WHERE u.estado = 'São Paulo'
